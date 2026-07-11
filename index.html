@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Addmire — Studio XR, expériences immersives éducatives</title>
+<meta name="description" content="Addmire conçoit des expériences de réalité virtuelle pour les écoles, musées et parcs scientifiques.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<div class="nav-wrap">
+  <a href="#" class="logo-slot" style="width:150px; height:40px; text-decoration:none;">
+    <img src="images/logo-addmire.png" alt="Addmire">
+  </a>
+  <div class="nav-links-desktop">
+    <a href="#projets">Nos projets</a>
+    <a href="#processus">Processus</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="nav-burger" id="navBurger" aria-label="Menu">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1C4B43" stroke-width="2" stroke-linecap="round">
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </button>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#projets">Nos projets</a>
+    <a href="#processus">Processus</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-blob-1"></div>
+  <div class="hero-blob-2"></div>
+  <div class="hero-grid">
+    <div>
+      <div class="hero-badge"><span class="dot"></span>Studio XR — éducation &amp; culture</div>
+      <h1 class="hero-title">Des expériences immersives qui font vraiment apprendre</h1>
+      <p class="hero-lead">Des expériences de réalité virtuelle dans votre école, musée ou parc scientifique. Conçues pour rester en mémoire, pas juste pour l'effet waouh.</p>
+      <a href="#contact" class="btn-primary">Discuter de mon projet →</a>
+    </div>
+    <div class="hero-visual-wrap">
+      <div class="hero-visual-frame">
+        <div class="photo-slot" data-label="Photo — casque VR en usage">
+          <img src="images/hero-visual.jpg" alt="Casque VR en usage" onerror="this.style.display='none'">
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-dot"></div>
+        <div class="hero-card-title">Contenu autonome, prêt à l'emploi</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projets" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2>Nos projets</h2>
+      <p>Quelques expériences immersives conçues avec nos partenaires pédagogiques et culturels.</p>
+    </div>
+
+    <div class="carousel">
+      <div class="projects-grid" id="projectsTrack">
+
+        <div class="proj-card">
+          <div class="proj-photo" style="background:repeating-linear-gradient(135deg, #1C4B43 0px, #1C4B43 14px, #21564D 14px, #21564D 28px);">
+            <div class="photo-slot" data-label="MetaMorphos VR au SPARKOH" style="background:transparent;">
+              <img src="images/metamorphos.jpg" alt="MetaMorphos VR au SPARKOH" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-client">UMONS / SPARKOH</div>
+            <div class="proj-title">MetaMorphos VR au SPARKOH</div>
+            <div class="proj-desc">Une expérience VR immersive pour découvrir l'anatomie des animaux, réimaginée pour le grand public en parc scientifique.</div>
+            <a class="proj-link" href="https://nathanpuozzo.myportfolio.com/metamorphos-vr" target="_blank" rel="noopener">En savoir plus →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-photo" style="background:repeating-linear-gradient(135deg, #E8642C 0px, #E8642C 14px, #EE7C4B 14px, #EE7C4B 28px);">
+            <div class="photo-slot" data-label="Visite de l'ESHS" style="background:transparent;">
+              <img src="images/eshs-visite.jpg" alt="Visite de l'ESHS" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-client">UMONS</div>
+            <div class="proj-title">Visite de l'ESHS</div>
+            <div class="proj-desc">Une visite virtuelle guidée pour présenter le nouveau bâtiment Rosa Park et l'histoire de l'Ecole des Sciences Humaines et Sociales</div>
+            <a class="proj-link" href="https://nathanpuozzo.myportfolio.com/rosa-park-experience" target="_blank" rel="noopener">En savoir plus →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-photo" style="background:repeating-linear-gradient(135deg, #16332D 0px, #16332D 14px, #1C4B43 14px, #1C4B43 28px);">
+            <div class="photo-slot" data-label="Expérience Halloween Sparkoh" style="background:transparent;">
+              <img src="images/halloween-sparkoh.jpg" alt="Expérience Halloween Sparkoh" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-client">Sparkoh</div>
+            <div class="proj-title">Expérience Halloween Sparkoh</div>
+            <div class="proj-desc">Une expérience immersive à thème pour une animation événementielle grand public.</div>
+            <a class="proj-link" href="https://nathanpuozzo.myportfolio.com/halloween-experience" target="_blank" rel="noopener">En savoir plus →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-photo" style="background:repeating-linear-gradient(135deg, #7A8A5A 0px, #7A8A5A 14px, #8B9C68 14px, #8B9C68 28px);">
+            <div class="photo-slot" data-label="Van Gogh Flowers Experience" style="background:transparent;">
+              <img src="images/van-gogh-flowers.jpg" alt="Van Gogh Flowers Experience" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-client">Maison Van Gogh</div>
+            <div class="proj-title">Van Gogh Flowers Experience</div>
+            <div class="proj-desc">Une expérience immersive pour découvrir le lien entre la nature et les œuvres les plus connues de Van Gogh.</div>
+            <a class="proj-link" href="https://nathanpuozzo.myportfolio.com/van-gogh-flowers-experience" target="_blank" rel="noopener">En savoir plus →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-photo" style="background:repeating-linear-gradient(135deg, #4A6FA5 0px, #4A6FA5 14px, #5B82BB 14px, #5B82BB 28px);">
+            <div class="photo-slot" data-label="Ateliers XR dans les écoles" style="background:transparent;">
+              <img src="images/ecoles-xr.jpg" alt="Ateliers XR dans les écoles" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-client">Écoles</div>
+            <div class="proj-title">Ateliers XR dans les écoles</div>
+            <div class="proj-desc">Ateliers pilotes en classe pour découvrir les sciences autrement à l'aide de la réalité virtuelle</div>
+            <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7402617849199960064" target="_blank" rel="noopener">En savoir plus →</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-btn prev" id="carouselPrev" aria-label="Précédent">←</button>
+      <button class="carousel-btn next" id="carouselNext" aria-label="Suivant">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust">
+  <div class="trust-inner">
+    <div class="trust-label">Ils nous ont fait confiance</div>
+    <div class="logos-row">
+      <a href="https://www.sparkoh.be" target="_blank" rel="noopener" class="logo-link logo-slot">
+        <img src="images/logo-sparkoh.webp" alt="Logo SPARKOH">
+      </a>
+      <a href="https://web.umons.ac.be" target="_blank" rel="noopener" class="logo-link logo-slot">
+        <img src="images/logo-umons.webp" alt="Logo UMONS">
+      </a>
+      <a href="https://www.jsb.be" target="_blank" rel="noopener" class="logo-link logo-slot">
+        <img src="images/logo-jsb.png" alt="Logo Jeunesses Scientifiques">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="processus" class="process">
+  <div class="process-blob"></div>
+  <div class="section-inner process-inner">
+    <div class="section-head">
+      <h2>Processus</h2>
+      <p>Un déroulement simple, pensé pour avancer vite sans perdre en qualité pédagogique.</p>
+    </div>
+
+    <div class="steps-grid">
+      <div>
+        <div class="step-head">
+          <div class="step-num">01</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8642C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"></circle>
+            <circle cx="12" cy="12" r="5"></circle>
+            <circle cx="12" cy="12" r="1"></circle>
+          </svg>
+        </div>
+        <div class="step-title">Cadrage</div>
+        <div class="step-desc">Public, objectif pédagogique, contraintes techniques et budgétaires — on définit ensemble le cap.</div>
+      </div>
+      <div>
+        <div class="step-head">
+          <div class="step-num">02</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8642C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 3h6"></path>
+            <path d="M10 3v6l-5.5 9.5A1 1 0 0 0 5.4 20h13.2a1 1 0 0 0 .9-1.5L14 9V3"></path>
+            <path d="M7.5 14.5h9"></path>
+          </svg>
+        </div>
+        <div class="step-title">Prototype</div>
+        <div class="step-desc">Une première version testée rapidement en conditions réelles, ajustée avec vous.</div>
+      </div>
+      <div>
+        <div class="step-head">
+          <div class="step-num">03</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8642C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"></path>
+            <path d="M3 8l9 5 9-5"></path>
+            <path d="M12 13v8"></path>
+          </svg>
+        </div>
+        <div class="step-title">Livraison</div>
+        <div class="step-desc">Casque prêt à l'emploi, contenu autonome — aucune compétence technique requise pour l'utiliser.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="contact-grid">
+    <div>
+      <h2>Une idée de projet immersif ?</h2>
+      <p class="contact-lead">Parlons-en simplement. Décrivez votre projet, votre public, vos contraintes — on revient vers vous rapidement.</p>
+      <div class="contact-photo photo-slot" data-label="Photo de Nathan">
+        <img src="images/nathan-photo.jpg" alt="Photo de Nathan" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <div class="contact-name">Nathan Puozzo</div>
+        <a class="contact-email" href="mailto:nathan.puozzo@addmire.net">nathan.puozzo@addmire.net</a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="firstName">Prénom</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-field">
+          <label for="lastName">Nom</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="email">Adresse email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-field">
+        <label for="message">Votre projet</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="form-submit">Envoyer</button>
+      <div class="form-note">Ouvre votre client mail avec le message pré-rempli.</div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<div class="site-footer">
+  <div class="logo-slot" style="width:110px; height:28px;">
+    <img src="images/logo-addmire.png" alt="Addmire">
+  </div>
+  <div class="footer-copy">© 2026 Addmire — studio XR</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
