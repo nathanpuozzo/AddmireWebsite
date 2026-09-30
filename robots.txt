@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /projets/template.html
+
+Sitemap: https://www.addmire.net/sitemap.xml
