@@ -37,6 +37,13 @@
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 40px; }
 .gallery-item { aspect-ratio: 4 / 3; border-radius: 16px; overflow: hidden; }
 
+.proj-video {
+  aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; margin: 8px auto 32px;
+  box-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.35);
+}
+.proj-video iframe { width: 100%; height: 100%; border: 0; display: block; }
+.proj-video.is-vertical { aspect-ratio: 9 / 16; max-width: 360px; }
+
 .proj-impact { padding: 90px 64px; }
 .proj-impact .proj-h { margin-bottom: 32px; }
 .impact-item { margin-bottom: 18px; }

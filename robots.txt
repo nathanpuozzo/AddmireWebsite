@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /projets/template.html
+Disallow: /projets/hive.html
 
 Sitemap: https://www.addmire.net/sitemap.xml

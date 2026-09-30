@@ -6,8 +6,28 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.addmire.net/projets/hive.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.addmire.net/projets/metamorphos-vr.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.addmire.net/projets/visite-eshs.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.addmire.net/projets/halloween-sparkoh.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.addmire.net/projets/van-gogh-flowers.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.addmire.net/projets/ateliers-xr-ecoles.html</loc>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
